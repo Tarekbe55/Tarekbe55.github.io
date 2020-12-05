@@ -1,45 +1,98 @@
-<!-- HTML Bio with CSS -->
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Home | Tarek Behairy</title>
+  </head>
+  <body>
 
-<head>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-  <meta charset="UTF-8">
-  <title>Tarek Behairy</title>
+      <div class="container-fluid">
 
-  <!-- This critical line points your HTML to the CSS file. Notice the "relative" pathway  -->
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+        <a class="navbar-brand logo" href="index.html">Tarek Behairy</a>
 
-<body>
-  <header>
-    <h1>My Bio</h1>
-  </header>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-  <div class="container">
+        <div class="collapse navbar-collapse" id="navbar">
+          <div class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </div>
+        </div>
 
-    <section id="main-bio">
+      </div>
 
-      <h2>Tarek Behairy</h2>
-      <img src="Img/Tarek1.png" alt="Tarek Behairy pic" id="bio-image">
-      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
+    </nav>
 
-    </section>
+    <main class="container">
 
-    <section id="contact-info">
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="page-header">
+                <h1>About Me</h1>
+                <hr solid>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="http://placehold.it/200x200" alt="Placeholder" class="img-thumbnail">
+                </div>
+                <div class="col-md-8">
+                  <p >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique,
+                    nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae
+                    felis vulputate pretium. Nullam commodo, est ac auctor ornare, eros nisi fringilla sem,
+                    non pulvinar tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus,
+                    luctus enim. Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et
+                    neque fringilla ultricies. Aenean at feugiat elit, a posuere justo. Pellentesque egestas
+                    dolor et nisi venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id
+                    posuere sem congue a.
+                  </p>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique,
+                      nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae
+                      felis vulputate pretium. Nullam commodo, est ac auctor ornare, eros nisi fringilla sem,
+                      non pulvinar tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus,
+                      luctus enim. Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et
+                      neque fringilla ultricies. Aenean at feugiat elit, a posuere justo. Pellentesque egestas
+                      dolor et nisi venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id
+                      posuere sem congue a.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>    
 
-      <h2>Contact Info</h2>
+    
 
-      <ul>
-        <li><strong>Email:</strong> <a href="#">tbtarek@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="#">tarekbe55.github.io</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-      </ul>
+  
+                  
+                    
+                    
+      </section>
 
-    </section>
+    </main>
+    
+    <footer class="footer fixed-bottom">
+      <p class="text-muted text-muted-footer text-center">&copy; Copyright Jane Doe</p>
+    </footer>
 
-  </div>
-
-</body>
-
+    <!-- jQuery CDN -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- Bootstrap CDN -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
+  </body>
 </html>
