@@ -3,9 +3,9 @@ body {
   background-color:#bdf7f4;
 }
 
-.container {
+.col-md-9 {
   background-color: white;
-  
+  padding-right: 50px;
 }
 
 html {
@@ -28,6 +28,15 @@ html {
 
 main {
   margin: 80px 0;
+}
+
+/*Contact Styling*/
+.col-md-8 {
+  background-color: white;
+}
+
+form {
+  height: 380px;
 }
 
 /* ------------------------- */
