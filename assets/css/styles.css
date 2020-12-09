@@ -3,19 +3,7 @@ body {
   background-color:#8dcecb;
 }
 
-.img-thumbnail1 {
-  height: 250px;
-  width: 250px;
-}
 
-.table {
-  margin-left: auto;
-  margin-right: auto;
-}
-.col-md-9 {
-  background-color: white;
-  padding-right: 50px;
-}
 
 html {
   position: relative;
@@ -30,7 +18,7 @@ html {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 24px;
   font-weight: bold;
-  /* background-color: #4aaaa5; */
+  background-color: #edf1f1;
   padding: 10px;
   color: rgb(0, 0, 0) !important;
 }
@@ -39,17 +27,88 @@ main {
   margin: 80px 0;
 }
 
+.container {
+margin-left: 0;
+}
+
 /*Contact Styling*/
 .col-md-8 {
   background-color: white;
 }
 
-form {
-  height: 380px;
+.col-md-7 {
+  margin-left: 20px;
 }
 
 /* ------------------------- */
-/* other styles will be here */
+
+
+.img-thumbnail1 {
+  height: 250px;
+  width: 250px;
+}
+
+.col-md-9 {
+  background-color: white;
+  margin-left: 20px;
+}
+
+/* Width at 768px and below */
+@media screen and (max-width: 768px) {
+
+
+
+  /***Portfolio styles per screen width**/
+ 
+  .img-fluid {
+    margin: 20px auto;
+  }
+  
+  figure { 
+  display: contents;
+  }
+  
+  }
+
+  /* Width at 400px and below */
+@media screen and (max-width: 400px) {
+
+
+
+  /*** Styling for portfolio page**/
+  figure { 
+    display: contents;
+    
+  }
+  
+  .img-fluid {
+    margin: 20px auto;
+  }
+  
+  .col-md-7 {
+    margin: 0 20px auto;
+  }
+  
+   /***Styling for Contact page**/
+  
+   .contact {
+    right: 25px;
+    margin: 0 20px auto;
+   }
+
+
+   /***Styling for home page**/
+   table {
+     font-size: small;
+   }
+   .home {
+     padding-right: 30px;
+   }
+   .img-thumbnail1 {
+    height: 200px;
+    width: 200px;
+  }
+}
 /* ------------------------- */
 
 .footer {
