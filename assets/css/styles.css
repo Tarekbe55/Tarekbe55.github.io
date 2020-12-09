@@ -101,6 +101,9 @@ margin-left: 0;
    table {
      font-size: small;
    }
+   .tabcont{
+     width: 365px;
+   }
    .home {
      padding-right: 30px;
    }
