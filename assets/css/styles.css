@@ -53,12 +53,12 @@ margin-left: 0;
   margin-left: 20px;
 }
 
-/* Width at 768px and below */
+/* Media Query for size 768 */
 @media screen and (max-width: 768px) {
 
 
 
-  /***Portfolio styles per screen width**/
+  /***Portfolio styles 768**/
  
   .img-fluid {
     margin: 20px auto;
@@ -70,7 +70,7 @@ margin-left: 0;
   
   }
 
-  /* Width at 400px and below */
+  /* media Query for size 400 */
 @media screen and (max-width: 400px) {
 
 
