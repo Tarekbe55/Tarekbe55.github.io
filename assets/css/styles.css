@@ -1,6 +1,7 @@
   body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   background-color:#8dcecb;
+  background-image: url(/Screenshots/starwars.jpg);
 }
 
 
@@ -11,14 +12,18 @@ html {
 }
 
 .navbar {
-  border-bottom: 1px solid #efefef;
+  border-bottom: 1px solid #da6a6a;
+  background:  #c2bebe;
+}
+nav {
+  background-color: #c2bebe;
 }
 
 .logo {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 24px;
   font-weight: bold;
-  background-color: #edf1f1;
+  background-color: #c2bebe;
   padding: 10px;
   color: rgb(0, 0, 0) !important;
 }
@@ -29,7 +34,7 @@ main {
 }
 
 .container {
-/* margin-left: 0; */
+background-color: ;
 }
 
 /*Contact Styling*/
@@ -52,6 +57,15 @@ main {
 .col-md-9 {
   background-color: white;
   margin-left: 20px;
+}
+
+.footer {
+  height: 62px;
+  border-top: 6px solid  #da6a6a;
+  margin-top: 3px;
+  background-color:  #c2bebe;
+  padding-top: 14px;
+  color: #fff;
 }
 
 /* Media Query for size 768 */
@@ -115,11 +129,3 @@ main {
 }
 /* ------------------------- */
 
-.footer {
-  height: 62px;
-  border-top: 6px solid #4aaaa5;
-  margin-top: 3px;
-  background-color:  #efefef;
-  padding-top: 14px;
-  color: #fff;
-}
