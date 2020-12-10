@@ -12,9 +12,9 @@ Built with VS code
 
 ## Screenshot
 
-![Home](assets/css/Screenshots/home.png) 
-![Portfolio](assets/css/Screenshots/portfolio.png)
-![Portfolio](assets/css/Screenshots/contact.png)
+![Home](Screenshots/home.png) 
+![Portfolio](Screenshots/portfolio.png)
+![Portfolio](Screenshots/contact.png)
 
 
 ## Deployed application link
