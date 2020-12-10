@@ -25,10 +25,11 @@ html {
 
 main {
   margin: 80px 0;
+  padding-right: 30px;
 }
 
 .container {
-margin-left: 0;
+/* margin-left: 0; */
 }
 
 /*Contact Styling*/
@@ -71,7 +72,7 @@ margin-left: 0;
   }
 
   /* media Query for size 400 */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 572px) {
 
 
 
@@ -102,7 +103,7 @@ margin-left: 0;
      font-size: small;
    }
    .tabcont{
-     width: 365px;
+     width: 550px;
    }
    .home {
      padding-right: 30px;
