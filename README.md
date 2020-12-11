@@ -8,13 +8,14 @@ In my personal portfolio, you will find the projects i have worked on, my bio an
 
 ## Tech/framework used
 
-Built with VS code
+Built with VScode
 
 ## Screenshot
 
-![Home](Screenshots/home.png) 
-![Portfolio](Screenshots/portfolio.png)
-![Portfolio](Screenshots/contact.png)
+
+![992](Screenshots/992.png) 
+![768](Screenshots/768.png)
+![400](Screenshots/400.png)
 
 
 ## Deployed application link
