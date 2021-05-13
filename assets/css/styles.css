@@ -72,8 +72,13 @@ html {
 
   figure { 
     display: contents;
+
   }
   
+  .pdng {
+    margin-bottom: 20px;
+  }
+
   /*adjusting the margin for the images**/
   .img-fluid {
     margin: 20px auto;
